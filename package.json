@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-promises",
+  "version": "0.0.0",
+  "description": "A test examples of using NodeJS Promise combined with Hexagonal Architecture",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "node index.js"
+  },
+  "author": "ThomRick",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
