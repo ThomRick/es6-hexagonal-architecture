@@ -1,5 +1,5 @@
 import express from 'express';
-import {AppModule} from '../lib/app/app.module';
+import {AppModule} from './app/app.module';
 
 export class MainClass {
   static main() {
